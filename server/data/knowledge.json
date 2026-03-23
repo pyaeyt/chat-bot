@@ -1,0 +1,30 @@
+[
+  {
+    "keywords": ["campus", "location", "address", "where is"],
+    "answer": "Main campus is at 100 University Way. The Student Services building is open Mon–Fri 8:00–17:00."
+  },
+  {
+    "keywords": ["library", "hours", "study"],
+    "answer": "Central Library: Mon–Thu 7:00–22:00, Fri 7:00–20:00, Sat–Sun 10:00–18:00. Extended study zones are on Level 3."
+  },
+  {
+    "keywords": ["lesson", "schedule", "timetable", "class"],
+    "answer": "Your personal timetable is in the student portal under Academics → Schedule. Contact your department office for room changes."
+  },
+  {
+    "keywords": ["exam", "examination", "final"],
+    "answer": "Exam regulations: arrive 15 minutes early, bring student ID, no phones. Full policy: Student Handbook §8."
+  },
+  {
+    "keywords": ["regulation", "policy", "handbook", "conduct", "plagiarism"],
+    "answer": "Academic integrity and conduct rules are in the Student Handbook. Plagiarism may lead to disciplinary action; use the citation guide from the library website."
+  },
+  {
+    "keywords": ["deadline", "assignment", "submit", "late"],
+    "answer": "Assignments are submitted via the LMS unless your instructor states otherwise. Late penalties follow the course syllabus—ask your professor for extensions."
+  },
+  {
+    "keywords": ["tuition", "fee", "payment", "bursar"],
+    "answer": "Tuition deadlines and payment plans are handled by the Bursar’s Office (bursar@university.edu). The chatbot cannot access your account balance."
+  }
+]
