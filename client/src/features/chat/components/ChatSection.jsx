@@ -94,7 +94,7 @@ export default function ChatSection() {
           onKeyDown={handleKeyDown}
         />
 
-        {/* 🎤 Voice Button */}
+        {/* Voice Button */}
         <button
           // onClick={handleRecord}
           className={`ml-2 p-2 rounded-md transition 

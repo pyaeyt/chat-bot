@@ -23,11 +23,11 @@ export default function LoginSection() {
 
       console.log("LOGIN RESPONSE:", data) // 🔍 debug
 
-      // ✅ Store token + user
+      //Store token + user
       localStorage.setItem("token", data.token)
       localStorage.setItem("user", JSON.stringify(data.user))
 
-      // ✅ Role-based redirect
+      //Role-based redirect
       if (data.user.role === "professor") {
         router.push("/dashboard/professor")
       } else {

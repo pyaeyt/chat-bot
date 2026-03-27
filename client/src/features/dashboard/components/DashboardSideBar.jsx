@@ -28,7 +28,7 @@ export default function DashboardSidebar({ open, setOpen }) {
   const [openDropdown, setOpenDropdown] = useState(null)
   const [role, setRole] = useState(null)
 
-  // ✅ Get role from localStorage
+  //  Get role from localStorage
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user"))
     if (user) setRole(user.role)
@@ -38,7 +38,7 @@ export default function DashboardSidebar({ open, setOpen }) {
     setOpenDropdown(openDropdown === name ? null : name)
   }
 
-  // 🎓 STUDENT NAV
+  //  STUDENT NAV
   const studentNav = [
     { name: "AI Chat", href: "/dashboard/chat", icon: BotMessageSquare },
     { name: "Ask Professor", href: "/dashboard/ask-professor", icon: GraduationCap },
@@ -55,7 +55,7 @@ export default function DashboardSidebar({ open, setOpen }) {
     },
   ]
 
-  // 👨‍🏫 PROFESSOR NAV
+  //  PROFESSOR NAV
   const professorNav = [
     { name: "Student Chats", href: "/dashboard/professor/inbox", icon: MessageSquare },
     { name: "Notifications", href: "/dashboard/professor/notifications", icon: Bell },
@@ -71,7 +71,7 @@ export default function DashboardSidebar({ open, setOpen }) {
     },
   ]
 
-  // ⚙️ SETTINGS (shared)
+  //  SETTINGS (shared)
   const settingsNav = {
     name: "Settings",
     icon: Settings,

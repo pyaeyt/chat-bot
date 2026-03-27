@@ -9,7 +9,7 @@ export default function ResetPasswordSection() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const token = searchParams.get("token")
-  console.log("token",token) // 🔥 important
+  console.log("token",token) //  important
 
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
